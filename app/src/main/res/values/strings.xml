@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <!-- TITLES -->
+    <string name="title_create">Create a New Puzzle</string>
+    <string name="title_type_dialog">Select Puzzle Type</string>
+
+    <!-- BUTTONS -->
+    <string name="button_play">Play</string>
+    <string name="button_create">Create</string>
+    <string name="button_manual">Manual</string>
+    <string name="button_finish">Finish</string>
+    <string name="button_new">New Game</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_mark">Mark</string>
+    <string name="button_unmark">Unmark</string>
+    <string name="button_save">Save</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    
+    <!-- MESSAGES -->
+    <string name="sudoku_win">You did it!</string>
+    <string name="sudoku_invalid">Sorry, the puzzle is not valid…</string>
+    <string name="sudoku_saved">Saved to file</string>
+    <string name="error">Something went wrong…</string>
+    <string name="time">Time</string>
+    <string name="seconds">seconds</string>
+
+    <!-- MANUAL -->
+    <string name="howto_play_title">How to Play</string>
+    <string name="howto_play_text">
+        Tap on Play in the main menu and select a puzzle size to start a game.
+        You will be given a random puzzle to solve. Remember to tap Finish when you are done.
+        \n\n
+        Each puzzle consists of a 4x4, 6x6 or 9x9 grid containing given clues in various places.
+        The object is to fill all empty squares so that the numbers 1 to 4 (for 4x4 puzzles),
+        1 to 6 (for 6x6 puzzles) or 1 to 9 (for 9x9 puzzles) appear exactly once in each row, column and box.
+    </string>
+    <string name="howto_create_title">How to Create a Puzzle</string>
+    <string name="howto_create_text">
+        Tap on Create in the main menu and select a puzzle size.
+        You will then be presented with an empty puzzle that you can fill out.
+        Tap on Save to add it to the list of random puzzles you get in Play mode.\n
+        N.B. There is no check to see if a puzzle is solvable, so be careful when clicking save.
+    </string>
+
+    <!-- TYPES -->
+    <string-array name="puzzleTypes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+</resources>

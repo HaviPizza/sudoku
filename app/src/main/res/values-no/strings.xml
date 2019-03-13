@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+
+    <!-- TITLES -->
+    <string name="title_create">Lag et nytt brett</string>
+    <string name="title_type_dialog">Velg type</string>
+
+    <!-- BUTTONS -->
+    <string name="button_play">Spill</string>
+    <string name="button_create">Lag brett</string>
+    <string name="button_manual">Manual</string>
+    <string name="button_finish">Ferdig</string>
+    <string name="button_new">Nytt spill</string>
+    <string name="button_clear">Slett</string>
+    <string name="button_mark">Marker</string>
+    <string name="button_unmark">Fjern markering</string>
+    <string name="button_save">Lagre</string>
+    <string name="button_reset">Tilbakestill</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Avbryt</string>
+
+    <!-- MESSAGES -->
+    <string name="sudoku_win">Du klarte det!</string>
+    <string name="sudoku_invalid">Sorry, brettet er ikke gyldig…</string>
+    <string name="sudoku_saved">Lagret til fil</string>
+    <string name="error">Noe gikk galt…</string>
+    <string name="time">Tid</string>
+    <string name="seconds">sekunder</string>
+
+    <!-- MANUAL -->
+    <string name="howto_play_title">Hvordan spille</string>
+    <string name="howto_play_text">
+        Klikk på Spill i hovedmenyen og velg type for å starte et spill.
+        Du vil bli tildelt et tilfeldig brett. Husk å klikke på Ferdig for å fullføre.
+        \n\n
+        Hvert brett består av 4x4, 6x6 eller 9x9 ruter der noen ruter allerede inneholder en verdi.
+        Målet er å fylle ut hele brettet slik at alle rutene inneholder et tall og at alle tallene
+        forekommer bare en gang i hver rad, kolonne og boks.
+    </string>
+    <string name="howto_create_title">Hvordan lage et brett</string>
+    <string name="howto_create_text">
+        Klikk på Lag brett i hovedmenyen og velg en type.
+        Du vil bli presentert med et tomt brett som du kan fylle ut.
+        Klikk på Lagre for å legge til brettet i listen av tilfeldig valgte brett.
+        N.B. Det finnes ingen sjekk på om brettet er gyldig, så vær forsiktig med å lagre.
+    </string>
+
+    <!-- TYPES -->
+    <string-array name="puzzleTypes">
+        <item>Lite</item>
+        <item>Middels</item>
+        <item>Stort</item>
+    </string-array>
+
+</resources>
